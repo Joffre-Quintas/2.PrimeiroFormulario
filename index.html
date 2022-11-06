@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <figure class="dev-img">
+            <img src="assets/img/desenvolvedor-web.png" alt="Coding">
+        </figure>
+        <div class="formgroup">
+            <div class="title">
+                <h2>Olá Dev!</h2>
+                <p>Preencha o formulário para lhe adicionar em nosso banco de dados.</p>
+            </div>
+            <form class="form" action="">
+                <label for="completName" class="after-effect">Nome Completo</label>
+                <input type="name" name="completName" placeholder="Nome completo">
+                <div class="input-sex">
+                    <label class="after-effect">Sexo</label>
+                    <div>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="sex">
+                        <label for="fem">Feminino</label>
+                        <input type="radio" name="sex">
+                    </div>
+                </div>
+                <label for="age" class="after-effect">Idade</label>
+                <input type="number" name="age" placeholder="Acima de 18 anos">
+                <label for="email" class="after-effect">E-mail</label>
+                <input type="email" name="email" placeholder="exemplo@exemplo.com.br">
+                <label for="School" class="after-effect">Instituição de ensino</label>
+                <input type="text" name="School" placeholder="ex:UNINASSAU">
+                <label for="course" class="after-effect">Curso em andamento</label>
+                <input type="text" name="course" placeholder="ex: Sistema de Informação">
+                <label for="finish-course" class="after-effect">Conclusão do Curso</label>
+                <input type="date" name="finish-course">
+                <fieldset class="languages">
+                    <legend>Linguagens de Programação</legend>
+                    <div>
+                        <label for="Java-Script">Java Script</label>
+                        <input type="checkbox" name="Java-Script">
+                    </div>
+                    <div>
+                        <label for="Java">Java</label>
+                        <input type="checkbox" name="Java">
+                    </div>
+                    <div>
+                        <label for="python">Python</label>
+                        <input type="checkbox" name="python">
+                    </div>
+                </fieldset>
+                <div class="buttons">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

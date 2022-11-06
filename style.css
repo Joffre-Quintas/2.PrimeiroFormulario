@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    background-color:rgb(83, 94, 246);
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    width: 1000px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.411);
+    background-color: white;
+}
+img{
+    width: 600px;
+    border-radius: 15px 0px 0px 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0px 20px;
+}
+.form * {
+    margin-bottom: 4px;
+}
+
+.title{
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+}
+
+.languages{
+    display: flex;
+    justify-content: space-around;
+}
+label,legend{
+    font-weight: bold;
+}
+.after-effect{
+    margin-bottom: 7px;
+}
+.after-effect::after{
+    content: "";
+    width: 23px;
+    height: 5px;
+    background-color: rgb(68, 90, 229);
+    display: block;
+    position: absolute;
+    border-radius: 4px;
+}
+.buttons{
+    margin:10px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(68, 90, 229);
+    border-radius: 4px;
+    box-shadow:1px 1px 3px rgb(93, 111, 227);
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 4px;
+}
+button:hover{
+    background-color:rgb(128, 141, 228);
+    font-size: 15px;
+}
+input:focus{
+    border: none;
+    outline: 2px solid rgb(58, 80, 221);
+    outline-width: 2px; 
+}
